@@ -6,7 +6,7 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { Link } from "react-router-dom";
 import { Switch } from "@mui/material";
 import { handleClickToggle } from "./NavBar";
-import Logo from "/public/abelmorad.png";
+import Logo from "../../public/abelmorad.png";
 
 function Header() {
   const [openNav, setOpenNav] = useState<boolean>(false);
