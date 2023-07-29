@@ -33,10 +33,12 @@ function Header() {
             <DarkModeIcon fontSize="small" />
           </div>
         </div>
-          <NavBar
-            style={openNav ? { display: "none" } : { display: "flex" }}
-            onClick={() => setOpenNav(!openNav)}
-          />
+          <div>
+            <NavBar
+              style={openNav ? { display: "flex" } : { display: "none" }}
+              onClick={() => setOpenNav(!openNav)}
+            />
+          </div>
       </div>
     </header>
   );
