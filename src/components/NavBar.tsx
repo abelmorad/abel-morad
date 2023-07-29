@@ -13,7 +13,7 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       className="flex flex-col items-end h-screen w-screen absolute 
       right-0 top-0 pr-3 pt-3 gap-5 text-3xl font-semibold 
       bg-gray-200 text-gray-900 dark:bg-gray-700 dark:text-gray-100
-      tablet:w-1/2 tablet:shadow-2xl"
+      tablet:w-1/2 tablet:shadow-2xl laptop:hidden"
       style={style}
     >
       <div onClick={onClick}>
