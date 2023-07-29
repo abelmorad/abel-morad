@@ -6,12 +6,13 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { Link } from "react-router-dom";
 import { Switch } from "@mui/material";
 import { handleClickToggle } from "./NavBar";
+import abellogo from "../../public/abelmorad.png"
 
 function Header() {
   const [openNav, setOpenNav] = useState<boolean>(false);
   return (
-    <header className="flex justify-between items-center px-3 py-3 fixed w-screen bg-opacity-95 bg-slate-100 z-50 dark:bg-gray-900 dark:text-gray-100">
-      <h1 className="text-2xl font-semibold">ABEL MORAD</h1>
+    <header className="flex justify-between items-center px-3 py-3 fixed w-screen bg-opacity-95 laptop:px-10 bg-slate-100 z-50 dark:bg-gray-900 dark:text-gray-100">
+      <img src={abellogo} alt="abelmoradlogo" className="h-9"/>
       <div>
         <div className="laptop:hidden" onClick={() => setOpenNav(!openNav)}>
           <MenuOutlinedIcon fontSize="large" />
