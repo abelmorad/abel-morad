@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import LightSwitch from "./LightSwitch";
+import {BsFacebook, BsGithub, BsLinkedin} from "react-icons/bs"
+
 
 function NavBar({ style, onClick }: { style: any; onClick: any }) {
   return (
@@ -14,6 +16,7 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       <div onClick={onClick}>
         <CloseRoundedIcon fontSize="large" className="text-fuchsia-600" />
       </div>
+      <LightSwitch />
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/experience">Experience</Link>
@@ -25,7 +28,11 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       >
         Resume
       </Link>
-      <LightSwitch />
+      <div className="flex gap-5 absolute bottom-10 right-3">
+      <Link to="/" ><BsGithub size="1.5rem" /></Link>
+      <Link to="/" ><BsLinkedin size="1.5rem" /></Link>
+      <Link to="/" ><BsFacebook size="1.5rem" /></Link>
+      </div>
     </nav>
   );
 }
