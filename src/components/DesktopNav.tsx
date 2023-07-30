@@ -8,14 +8,20 @@ function DesktopNav() {
   return (
     <nav className="mobile:hidden laptop:flex laptop:gap-4 laptop:items-center">
       {[
-        ["About", "/about"],
-        ["Experience", "/experience"],
-        ["Projects", "/projects"],
-        ["Contact", "/contact"],
-      ].map(([title, path]) => (
-        <Link to={path}>{title}</Link>
+        ["1","Home", "/"],
+        ["2","About", "/about"],
+        ["3","Experience", "/experience"],
+        ["4","Projects", "/projects"],
+        ["5","Contact", "/contact"],
+      ].map(([id,title, path]) => (
+        <Link className="text-lg font-medium underline-link hover:text-cyan-400" to={path} key={id}>
+          {title}
+        </Link>
       ))}
-      <Link to="/" className="bg-blue-600 text-white px-5 py-1 rounded-md">
+      <Link
+        to="/"
+        className="text-lg font-medium bg-transparent px-5 py-1 vaporwave-border hover:scale-105"
+      >
         Resume
       </Link>
       <div className="flex items-center">
