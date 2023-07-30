@@ -1,4 +1,4 @@
-import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
+import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import NavBar from "./MobileNavBar";
 import { useState } from "react";
 import Logo from "../../public/abelmorad.png";
@@ -7,11 +7,11 @@ import DesktopNav from "./DesktopNav";
 function Header() {
   const [openNav, setOpenNav] = useState<boolean>(false);
   return (
-    <header className="flex justify-between items-center px-3 py-3 fixed w-screen bg-opacity-95 laptop:px-10 bg-slate-100 z-50 dark:bg-gray-900 dark:text-gray-100">
+    <header className="flex justify-between items-center pl-6 pr-3 py-3 fixed w-screen bg-opacity-90 laptop:px-10 z-50 dark:bg-gray-900 dark:text-gray-100">
       <img src={Logo} alt={Logo} className="h-9" />
       <div>
         <div className="laptop:hidden" onClick={() => setOpenNav(!openNav)}>
-          <MenuOutlinedIcon fontSize="large" />
+          <MenuRoundedIcon fontSize="large" className="text-fuchsia-600" />
         </div>
         <DesktopNav />
         <NavBar
