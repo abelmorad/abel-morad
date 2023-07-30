@@ -3,16 +3,17 @@ import Aside from "../components/Aside";
 
 function Landing() {
   return (
-    <section className="flex flex-col h-screen items-center place-content-center px-3">
-      <div className="grid grid-flow-col-dense gap-5 w-screen px-3 laptop:px-10">
+    <section className="flex flex-col h-screen items-center place-content-center">
+      <div className="grid grid-flow-col-dense gap-5 w-screen laptop:px-10 px-3">
         <Aside />
         <section className="flex flex-col items-start place-content-center tablet:px-20 laptop:px-40 desktop:px-72">
-          <h1 className="text-2xl font-semibold">Sharhabeel Morad</h1>
+          <p className="font-light">Hi, I am</p>
+          <h1 className="text-4xl font-semibold">Sharhabeel Morad</h1>
           <p className="font-extralight">Front-end Developer | React </p>
           <p className="mt-3 font-light">
-            A self-taught front-end developer. Inspired by the vast potential of
-            front-end development to shape the way people interact with
-            technology.
+            A self-taught front-end developer continuously developing my skills
+            and adapting to technologies to be able to build real-world projects
+            that impacts people.
           </p>
           <Link
             to="/"
