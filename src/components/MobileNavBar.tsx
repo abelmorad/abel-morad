@@ -1,12 +1,7 @@
-import { Switch } from "@mui/material";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { Link } from "react-router-dom";
-import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
+import LightSwitch from "./LightSwitch";
 
-export function handleClickToggle() {
-  document.documentElement.classList.toggle("dark");
-}
 function NavBar({ style, onClick }: { style: any; onClick: any }) {
   return (
     <nav
@@ -17,7 +12,7 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       style={style}
     >
       <div onClick={onClick}>
-        <CloseRoundedIcon fontSize="large" className="text-fuchsia-600"/>
+        <CloseRoundedIcon fontSize="large" className="text-fuchsia-600" />
       </div>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
@@ -30,11 +25,7 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       >
         Resume
       </Link>
-      <div className="flex items-center">
-        <LightModeIcon fontSize="small" className="text-yellow-500" />
-        <Switch size="small" color="warning" onClick={handleClickToggle} />
-        <DarkModeIcon fontSize="small" />
-      </div>
+      <LightSwitch />
     </nav>
   );
 }
