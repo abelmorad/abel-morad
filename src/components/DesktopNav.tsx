@@ -14,7 +14,7 @@ function DesktopNav() {
         ["4","Projects", "/projects"],
         ["5","Contact", "/contact"],
       ].map(([id,title, path]) => (
-        <Link className="text-lg font-medium underline-link hover:text-cyan-400" to={path} key={id}>
+        <Link className="text-lg font-medium underline-link" to={path} key={id}>
           {title}
         </Link>
       ))}
