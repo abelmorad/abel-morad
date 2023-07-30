@@ -2,7 +2,7 @@ import { Switch } from "@mui/material";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { Link } from "react-router-dom";
-import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
+import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
 export function handleClickToggle() {
   document.documentElement.classList.toggle("dark");
@@ -17,15 +17,16 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       style={style}
     >
       <div onClick={onClick}>
-        <CloseOutlinedIcon fontSize="large" />
+        <CloseRoundedIcon fontSize="large" className="text-fuchsia-600"/>
       </div>
+      <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/experience">Experience</Link>
       <Link to="/projects">Projects</Link>
       <Link to="/contact">Contact</Link>
       <Link
-        to="/resume"
-        className="bg-blue-600 text-white px-5 py-1 rounded-md"
+        to="/"
+        className="text-lg font-medium bg-transparent px-5 py-1 vaporwave-border  hover:scale-105"
       >
         Resume
       </Link>
