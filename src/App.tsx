@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
+import Landing from "./pages/Landing";
 
 function App() {
 
@@ -12,6 +13,10 @@ function App() {
       path: "/",
       element: <Root />,
       children: [
+        {
+          path: "/",
+          element: <Landing />,
+        },
         {
           path: "/about",
           element: <About />,
