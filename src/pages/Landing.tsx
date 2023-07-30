@@ -21,7 +21,9 @@ function Landing() {
             Contact Me
           </Link>
         </section>
-        <Aside />
+        <div className="mobile:hidden tablet:block">
+          <Aside />
+        </div>
       </div>
     </section>
   );
