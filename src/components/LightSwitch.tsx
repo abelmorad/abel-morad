@@ -10,7 +10,7 @@ function LightSwitch() {
   return (
     <div className="flex items-center">
       <LightModeIcon fontSize="small" className="text-yellow-500" />
-      <Switch size="small" color="warning" onClick={handleClickToggle} />
+      <Switch size="small" color="secondary" onClick={handleClickToggle} />
       <DarkModeIcon fontSize="small" />
     </div>
   );
