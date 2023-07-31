@@ -10,9 +10,9 @@ function Landing() {
           <h1 className="text-4xl font-semibold">Sharhabeel Morad</h1>
           <p className="font-extralight">Front-end Developer | React </p>
           <p className="mt-3 font-light">
-            A self-taught front-end developer continuously developing my skills
-            and adapting to technologies to be able to build real-world projects
-            that impacts people.
+            I am a self-taught front-end developer learning various technologies
+            to develop my skills and be a versatile web developer to build
+            real-world projects that impact people.
           </p>
           <Link
             to="/"
