@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import LightSwitch from "./LightSwitch";
+import ResumeBtn from "./ResumeBtn";
 
 function DesktopNav() {
   return (
@@ -15,12 +16,7 @@ function DesktopNav() {
           {title}
         </Link>
       ))}
-      <Link
-        to="/"
-        className="text-lg font-medium bg-transparent px-5 py-1 vaporwave-border hover:scale-105"
-      >
-        Resume
-      </Link>
+      <ResumeBtn />
       <LightSwitch />
     </nav>
   );

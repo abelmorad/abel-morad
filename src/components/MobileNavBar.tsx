@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import LightSwitch from "./LightSwitch";
 import {BsFacebook, BsGithub, BsLinkedin} from "react-icons/bs"
+import ResumeBtn from "./ResumeBtn";
 
 
 function NavBar({ style, onClick }: { style: any; onClick: any }) {
@@ -22,12 +23,7 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       <Link to="/experience">Experience</Link>
       <Link to="/projects">Projects</Link>
       <Link to="/contact">Contact</Link>
-      <Link
-        to="/"
-        className="text-lg font-medium bg-transparent px-5 py-1 vaporwave-border  hover:scale-105"
-      >
-        Resume
-      </Link>
+      <ResumeBtn />
       <div className="flex gap-5 absolute bottom-10 right-3">
       <Link to="/" ><BsGithub size="1.5rem" /></Link>
       <Link to="/" ><BsLinkedin size="1.5rem" /></Link>
