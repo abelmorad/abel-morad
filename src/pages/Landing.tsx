@@ -8,7 +8,7 @@ function Landing() {
         <section className="flex flex-col items-start place-content-center tablet:px-20 laptop:px-40 desktop:px-96">
           <p className="font-light">Hi, I am</p>
           <h1 className="text-4xl font-semibold">Sharhabeel Morad</h1>
-          <p className="font-extralight">Front-end Developer | React </p>
+          <h2 className="font-extralight">Front-end Developer | React </h2>
           <p className="mt-3 font-light">
             I am a self-taught front-end developer learning various technologies
             to develop my skills and be a versatile web developer to build
