@@ -1,4 +1,4 @@
-import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import NavBar from "./MobileNavBar";
 import { useState } from "react";
 import Logo from "../../public/abelmorad.png";
