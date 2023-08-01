@@ -42,13 +42,13 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
         <ResumeBtn />
       </div>
       <div className="flex gap-5 absolute bottom-10 right-3">
-        <Link to="/">
+        <Link to="https://github.com/abelmorad" target="_blank">
           <BsGithub size="1.5rem" />
         </Link>
-        <Link to="/">
+        <Link to="https://www.linkedin.com/in/sharhabeel-morad/" target="_blank">
           <BsLinkedin size="1.5rem" />
         </Link>
-        <Link to="/">
+        <Link to="https://www.facebook.com/profile.php?id=100092525047168" target="_blank">
           <BsFacebook size="1.5rem" />
         </Link>
       </div>
