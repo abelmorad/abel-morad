@@ -6,7 +6,7 @@ function ResumeBtn() {
     <Link
         to={Resume}
         target="_blank"
-        className="mobile:px-7 mobile:py-3 tablet:text-lg tablet:font-medium bg-transparent tablet:px-5 tablet:py-1 vaporwave-border hover:scale-105"
+        className="mobile:px-6 mobile:py-2 tablet:text-lg tablet:font-medium bg-transparent tablet:px-6 tablet:py-2 laptop:px-5 laptop:py-1 vaporwave-border hover:scale-105"
       >
         Resume
       </Link>
