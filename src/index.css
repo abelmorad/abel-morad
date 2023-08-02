@@ -53,6 +53,7 @@
   transform: translate3d(0, 0, 0);
 }
 
+/* aside style */
 .aside::before {
   content: "";
   width: 2px;
@@ -65,4 +66,12 @@
   width: 2px;
   height: 150px;
   background-color: #af1fbb;
+}
+
+/* bullet list style */
+li {
+  list-style-type: circle;
+}
+::marker {
+  color: #af1fbb;
 }
