@@ -3,9 +3,9 @@ import Aside from "../components/Aside";
 function Experience() {
   return (
     <section className="flex flex-col px-6 pt-20 laptop:pt-0 items-start laptop:h-screen laptop:place-content-center tablet:px-20 laptop:px-40 desktop:px-96 ">
-      <h1 className="text-3xl font-semibold mb-4">Experience</h1>
+      <h1 className="text-3xl font-semibold mb-5">Experience</h1>
       <div className="grid gap-7 tablet:grid-cols-2">
-        <div className="mb-6 pl-4">
+        <div className="ml-4">
           <p className="font-medium mb-2">Front-end Developer | 2022-Present</p>
           <ul>
             <li className="font-light">
@@ -20,7 +20,7 @@ function Experience() {
             </li>
           </ul>
         </div>
-        <div className="mb-6 pl-4">
+        <div className="ml-4">
           <p className="font-medium mb-2">Self-Employed | 2020-2022</p>
           <ul>
             <li className="font-light">Baked Neapolitan pizza</li>
@@ -29,7 +29,7 @@ function Experience() {
             </li>
           </ul>
         </div>
-        <div className="mb-6 pl-4">
+        <div className="ml-4">
           <p className="font-medium mb-2">Banana Farmer | 2019-2020</p>
           <ul>
             <li className="font-light">Applies fertilizers regularly</li>
@@ -38,7 +38,7 @@ function Experience() {
             </li>
           </ul>
         </div>
-        <div className="mb-6 pl-4">
+        <div className="ml-4">
           <p className="font-medium mb-2">IT-Technician | 2017-2018</p>
           <ul>
             <li className="font-light">
