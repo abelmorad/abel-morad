@@ -1,10 +1,11 @@
 import Aside from "../components/Aside";
+import {SiAxios, SiCss3, SiExpress, SiFirebase, SiGit, SiGithub, SiHtml5, SiJavascript, SiMongodb, SiMui, SiNodedotjs, SiPostman, SiReact, SiReactrouter, SiRedux, SiSass, SiStrapi, SiSwiper, SiTailwindcss, SiTypescript, SiVite} from "react-icons/si"
 
 function About() {
   return (
     <section className="flex flex-col gap-10 px-6 tablet:px-20 laptop:px-40 desktop:px-96 ">
       <article className="flex flex-col pt-20 tablet:pt-0 tablet:h-screen items-start tablet:place-content-center">
-        <h1 className="text-3xl font-semibold mb-4">About Me</h1>
+        <h1 className="text-3xl font-semibold mb-5">About Me</h1>
         <p className="mb-3">
           Hi, I am Sharhabeel Morad, a front-end developer focusing on building
           React web applications and currently learning back-end technologies to
@@ -25,8 +26,31 @@ function About() {
           feature.
         </p>
       </article>
-      <section>
-        <h1 className="text-3xl font-semibold mb-4">Tech Stack</h1>
+      <section className="flex flex-col">
+        <h1 className="text-3xl font-semibold mb-5">Tech Skills</h1>
+        <div className="grid mobile:grid-cols-3 tablet:grid-cols-7 text-6xl gap-6 place-items-center mb-40">
+          <SiReact />
+          <SiReactrouter />
+          <SiRedux />
+          <SiVite />
+          <SiTailwindcss />
+          <SiSass />
+          <SiHtml5 />
+          <SiCss3 />
+          <SiJavascript />
+          <SiTypescript />
+          <SiFirebase />
+          <SiMongodb />
+          <SiNodedotjs />
+          <SiExpress />
+          <SiSwiper />
+          <SiGit />
+          <SiGithub />
+          <SiMui />
+          <SiStrapi />
+          <SiPostman />
+          <SiAxios />
+        </div>
       </section>
       <div className="mobile:hidden tablet:block">
         <Aside />
