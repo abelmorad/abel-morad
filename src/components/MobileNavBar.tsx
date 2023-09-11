@@ -25,7 +25,6 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       {[
         ["1", "Home", "/"],
         ["2", "About", "/about"],
-        ["3", "Experience", "/experience"],
         ["4", "Projects", "/projects"],
         ["5", "Contact", "/contact"],
       ].map(([id, title, path]) => (

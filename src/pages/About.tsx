@@ -1,5 +1,6 @@
 import Aside from "../components/Aside";
 import {SiAxios, SiCss3, SiExpress, SiFirebase, SiGit, SiGithub, SiHtml5, SiJavascript, SiMongodb, SiMui, SiNodedotjs, SiPostman, SiReact, SiReactrouter, SiRedux, SiSass, SiStrapi, SiSwiper, SiTailwindcss, SiTypescript, SiVite} from "react-icons/si"
+import Experience from "./Experience";
 
 function About() {
   return (
@@ -26,6 +27,7 @@ function About() {
           feature.
         </p>
       </article>
+      <Experience />
       <section className="flex flex-col">
         <h1 className="text-3xl font-semibold mb-5">Tech Skills</h1>
         <div className="grid mobile:grid-cols-3 tablet:grid-cols-7 text-6xl gap-6 place-items-center mb-40">

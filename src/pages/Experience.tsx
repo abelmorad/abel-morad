@@ -1,58 +1,62 @@
-import Aside from "../components/Aside";
-
 function Experience() {
   return (
-    <section className="flex flex-col px-6 pt-20 laptop:pt-0 items-start laptop:h-screen laptop:place-content-center tablet:px-20 laptop:px-40 desktop:px-96 ">
+    <section className="flex flex-col mb-40">
       <h1 className="text-3xl font-semibold mb-5">Experience</h1>
       <div className="grid gap-7 tablet:grid-cols-2">
         <div className="ml-4">
-          <p className="font-medium mb-2">Front-end Developer | 2022-Present</p>
+          <h2 className="font-semibold">Front-end Developer | 2023-Present</h2>
+          <p className="font-light italic mb-2 text-sm">
+            Merdeka Infotek - Startup Company
+          </p>
           <ul>
-            <li className="font-light">
-              Built an e-commerce site using React, Typescript, TailwindCSS,
-              Redux, React-Router,and Strapi
+            <li>
+              Communicate with the development team and the client to discuss
+              the client's requirements and analyze how to solve the problem.
             </li>
-            <li className="font-light">
-              Built a static website for Merdeka Info Teknologi
-            </li>
-            <li className="font-light">
-              Built my simple first full-stack project using MERN stack
+            <li>Managed the team's workflow using GitHub Project</li>
+            <li>
+              Built the company's website using NextJS, TailwindCSS, TypesScript
+              & integrated the company's email service using EmailJS
             </li>
           </ul>
         </div>
         <div className="ml-4">
-          <p className="font-medium mb-2">Self-Employed | 2020-2022</p>
+          <h2 className="font-semibold">Self-Employed | 2020-2022</h2>
+          <p className="font-light italic mb-2 text-sm">Pizza Business</p>
           <ul>
-            <li className="font-light">Baked Neapolitan pizza</li>
-            <li className="font-light">
+            <li>Baked Neapolitan pizza</li>
+            <li>
               Managed purchasing, sales, marketing, and operations effeciently
             </li>
           </ul>
         </div>
         <div className="ml-4">
-          <p className="font-medium mb-2">Banana Farmer | 2019-2020</p>
+          <h2 className="font-semibold">Banana Farmer | 2019-2020</h2>
+          <p className="font-light italic mb-2 text-sm">
+            Owned a Banana Farm for export
+          </p>
           <ul>
-            <li className="font-light">Applies fertilizers regularly</li>
-            <li className="font-light">
+            <li>Applies fertilizers regularly</li>
+            <li>
               Inspects for banana diseases and rehabilitates sick bananas
             </li>
           </ul>
         </div>
         <div className="ml-4">
-          <p className="font-medium mb-2">IT-Technician | 2017-2018</p>
+          <h2 className="font-semibold">IT Technician | 2017-2018</h2>
+          <p className="font-light italic mb-2 text-sm">
+            Al-Bayan for Electronics and LED Technologies
+          </p>
           <ul>
-            <li className="font-light">
+            <li>
               Managed system-wide operating system and software deployments as
               well as related software upgrade problems
             </li>
-            <li className="font-light">
+            <li>
               Patiently walked individuals through basic troubleshooting tasks
             </li>
           </ul>
         </div>
-      </div>
-      <div className="mobile:hidden tablet:block">
-        <Aside />
       </div>
     </section>
   );

@@ -3,7 +3,6 @@ import Root from "./routes/Root";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Experience from "./pages/Experience";
 import Landing from "./pages/Landing";
 
 function App() {
@@ -22,10 +21,6 @@ function App() {
           element: <About />,
         },
         {
-          path: "/experience",
-          element: <Experience />,
-        },
-        {
           path: "/projects",
           element: <Projects />,
         },
@@ -38,9 +33,7 @@ function App() {
   ]);
   
   return (
-      <div>
         <RouterProvider router={router} />
-      </div>
   );
 }
 
