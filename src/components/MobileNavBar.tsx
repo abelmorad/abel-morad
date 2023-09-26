@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import LightSwitch from "./LightSwitch";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
@@ -23,33 +22,33 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       </div>
 
       {[
-        ["1", "Home", "/"],
-        ["2", "About", "/about"],
-        ["4", "Projects", "/projects"],
-        ["5", "Contact", "/contact"],
+        ["1", "Home", "#"],
+        ["2", "About", "#"],
+        ["4", "Projects", "#"],
+        ["5", "Contact", "#"],
       ].map(([id, title, path]) => (
-        <Link
+        <a
           className="text-4xl font-semibold underline-link"
-          to={path}
+          href={path}
           key={id}
           onClick={onClick}
         >
           {title}
-        </Link>
+        </a>
       ))}
       <div className="mt-4">
         <ResumeBtn />
       </div>
       <div className="flex gap-5 absolute bottom-10 right-3">
-        <Link to="https://github.com/abelmorad" target="_blank">
+        <a href="https://github.com/abelmorad" target="_blank">
           <BsGithub size="1.5rem" />
-        </Link>
-        <Link to="https://www.linkedin.com/in/sharhabeel-morad/" target="_blank">
+        </a>
+        <a href="https://www.linkedin.com/in/sharhabeel-morad/" target="_blank">
           <BsLinkedin size="1.5rem" />
-        </Link>
-        <Link to="https://www.facebook.com/profile.php?id=100092525047168" target="_blank">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100092525047168" target="_blank">
           <BsFacebook size="1.5rem" />
-        </Link>
+        </a>
       </div>
     </nav>
   );

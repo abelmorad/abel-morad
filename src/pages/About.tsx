@@ -1,10 +1,31 @@
-import Aside from "../components/Aside";
-import {SiAxios, SiCss3, SiExpress, SiFirebase, SiGit, SiGithub, SiHtml5, SiJavascript, SiMongodb, SiMui, SiNodedotjs, SiPostman, SiReact, SiReactrouter, SiRedux, SiSass, SiStrapi, SiSwiper, SiTailwindcss, SiTypescript, SiVite} from "react-icons/si"
+import {
+  SiAxios,
+  SiCss3,
+  SiExpress,
+  SiFirebase,
+  SiGit,
+  SiGithub,
+  SiHtml5,
+  SiJavascript,
+  SiMongodb,
+  SiMui,
+  SiNodedotjs,
+  SiPostman,
+  SiReact,
+  SiReactrouter,
+  SiRedux,
+  SiSass,
+  SiStrapi,
+  SiSwiper,
+  SiTailwindcss,
+  SiTypescript,
+  SiVite,
+} from "react-icons/si";
 import Experience from "./Experience";
 
 function About() {
   return (
-    <section className="flex flex-col gap-10 px-6 tablet:px-20 laptop:px-40 desktop:px-96 ">
+    <section id="about" className="flex flex-col gap-10 px-6 tablet:px-20 laptop:px-40 desktop:px-96 ">
       <article className="flex flex-col pt-20 tablet:pt-0 tablet:h-screen items-start tablet:place-content-center">
         <h1 className="text-3xl font-semibold mb-5">About Me</h1>
         <p className="mb-3">
@@ -54,9 +75,6 @@ function About() {
           <SiAxios />
         </div>
       </section>
-      <div className="mobile:hidden tablet:block">
-        <Aside />
-      </div>
     </section>
   );
 }

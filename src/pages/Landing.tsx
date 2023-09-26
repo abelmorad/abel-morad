@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Aside from "../components/Aside";
 
 function Landing() {
@@ -14,12 +13,11 @@ function Landing() {
             to develop my skills and be a versatile web developer to build
             real-world projects that impact people.
           </p>
-          <Link
-            to="/"
+          <a href=""
             className="flex text-lg font-medium bg-transparent px-5 py-1 mt-8 place-content-center vaporwave-border hover:scale-105"
           >
             Contact Me
-          </Link>
+          </a>
         </section>
         <div className="mobile:hidden tablet:block">
           <Aside />

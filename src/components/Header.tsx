@@ -8,7 +8,7 @@ function Header() {
   const [openNav, setOpenNav] = useState<boolean>(false);
   return (
     <header className="flex justify-between items-center pl-6 pr-3 py-3 fixed w-screen backdrop-blur-sm laptop:px-10 z-50 dark:bg-gray-900 dark:text-gray-100">
-      <img src={Logo} alt={Logo} className="h-9" />
+      <img src={Logo} alt="abel morad logo" className="h-9" />
       <div>
         <div className="laptop:hidden" onClick={() => setOpenNav(!openNav)}>
           <MenuRoundedIcon fontSize="large" className="text-fuchsia-600" />

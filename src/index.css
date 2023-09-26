@@ -5,6 +5,7 @@
 * {
   font-family: "Poppins", sans-serif;
   transition: 0.1s;
+  scroll-behavior: smooth;
 }
 /* border style */
 .vaporwave-border {
@@ -81,3 +82,8 @@ li {
   outline-color: #af1fbb;
 }
 
+/* card shadow */
+.card-shadow {
+  box-shadow: 2px 3px 20px 2px #af1fbb;
+
+}
