@@ -8,7 +8,7 @@ function Projects() {
         <h1 className="text-3xl font-semibold mb-5">Projects</h1>
         <p>Here is some of the projects that I have worked on</p>
       </section>
-      <section className="flex flex-wrap pt-10">
+      <section className="flex flex-wrap pt-10 place-content-center tablet:place-content-start">
         <ProjectCard />
       </section>
       <div className="mobile:hidden tablet:block">
