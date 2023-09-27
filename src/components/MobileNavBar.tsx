@@ -23,9 +23,9 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
 
       {[
         ["1", "Home", "#"],
-        ["2", "About", "#"],
-        ["4", "Projects", "#"],
-        ["5", "Contact", "#"],
+        ["2", "About", "#about"],
+        ["4", "Projects", "#projects"],
+        ["5", "Contact", "#contact"],
       ].map(([id, title, path]) => (
         <a
           className="text-4xl font-semibold underline-link"
