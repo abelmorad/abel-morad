@@ -4,9 +4,9 @@ function Experience() {
       <h1 className="text-3xl font-semibold mb-5">Experience</h1>
       <div className="grid gap-7 tablet:grid-cols-2">
         <div className="ml-4">
-          <h2 className="font-semibold">Front-end Developer | 2023-Present</h2>
+          <h2 className="font-semibold">Front-end Developer | 2022-2024</h2>
           <p className="font-light italic mb-2 text-sm">
-            Merdeka Infotek - Startup Company
+            Freelance
           </p>
           <ul>
             <li>
