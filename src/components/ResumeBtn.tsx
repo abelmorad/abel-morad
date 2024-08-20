@@ -1,4 +1,4 @@
-import Resume from "../document/SharhabeelResume.pdf"
+import Resume from "../document/Resume.pdf"
 
 function ResumeBtn() {
   return (
