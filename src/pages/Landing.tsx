@@ -13,15 +13,12 @@ function Landing() {
             to develop my skills and be a versatile web developer to build
             real-world projects that impact people.
           </p>
-          <a href=""
+          <a href="#contact"
             className="flex text-lg font-medium bg-transparent px-5 py-1 mt-8 place-content-center vaporwave-border hover:scale-105"
           >
             Contact Me
           </a>
         </section>
-        <div className="mobile:hidden tablet:block">
-          <Aside />
-        </div>
       </div>
     </section>
   );
