@@ -19,7 +19,7 @@ function ProjectCard() {
           <RxExternalLink />
         </a>
         <p className="text-xs mb-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eum
+          A landing page for Merderka InfoTek
         </p>
         
       </div>
