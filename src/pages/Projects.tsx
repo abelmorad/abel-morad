@@ -1,4 +1,3 @@
-import Aside from "../components/Aside";
 import ProjectCard from "../components/cards/ProjectCard";
 
 function Projects() {
@@ -11,9 +10,6 @@ function Projects() {
       <section className="flex flex-wrap pt-10 place-content-center tablet:place-content-start">
         <ProjectCard />
       </section>
-      <div className="mobile:hidden tablet:block">
-        <Aside />
-      </div>
     </section>
   );
 }
