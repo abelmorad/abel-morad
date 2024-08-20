@@ -22,10 +22,11 @@ function NavBar({ style, onClick }: { style: any; onClick: any }) {
       </div>
 
       {[
+        
         ["1", "Home", "#"],
         ["2", "About", "#about"],
         ["4", "Projects", "#projects"],
-        ["5", "Contact", "#contact"],
+        ["6", "Contact", "#contact"], 
       ].map(([id, title, path]) => (
         <a
           className="text-4xl font-semibold underline-link"

@@ -4,7 +4,6 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Landing from "./pages/Landing";
 import Footer from "./components/Footer";
-import Services from "./pages/Services";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Landing />
       <About />
       <Projects />
-      <Services />
       <Contact />
       <Footer />
     </>
